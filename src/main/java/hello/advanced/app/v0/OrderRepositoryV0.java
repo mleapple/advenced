@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 @RequiredArgsConstructor
 public class OrderRepositoryV0 {
     public void save(String itemId) {
-        //저장 로직
+        //저장 로직 xptmxm
         if (itemId.equals("ex")) { // 들어오면 예외발생
             throw new IllegalStateException("예외 발생!");
         }
